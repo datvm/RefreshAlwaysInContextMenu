@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json.schemastore.org/chrome-manifest",
+    "manifest_version": 2,
+    "name": "Refresh always in Menu",
+    "version": "1.0.0",
+    "description": "Add a Refresh option in Context Menu which is always there no matter where you right click",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "128": "icon.png",
+        "16": "icon.png",
+        "256": "icon.png",
+        "48": "icon.png"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
